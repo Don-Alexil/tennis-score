@@ -1,6 +1,6 @@
 # 🎾 Tennis Score 🎾
 
-# Subject
+# 🔍 Subject 🔍
 
 The goal is to implement a simple tennis score computer.
 
@@ -41,7 +41,7 @@ Cons:
  - instead of a class with few conditions, we have multiple state classes 
  - increase of the code size for a simple game 
 
-# Prerequisites
+# 🔗 Prerequisites 🔗
 
 * Maven 3.9.9
 * Java 21
