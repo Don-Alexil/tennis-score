@@ -14,6 +14,33 @@ The scoring system consist in one game, divided by points :
 * If the player with advantage wins the ball he wins the game
 * If the player without advantage wins the ball they are back at “deuce”.
 
+# 🧠 Analyse 🧠 
+## Naive Method - all in one method 
+[Naive Code](./src/main/java/ro/alexil/tennis/TennisGameNaive.java)
+
+Pro : 
+ - deliver the solution rapidly, the code works
+ - if the codebase is small and we won't change often
+
+Cons: 
+ - no code readability 
+ - difficult to maintain, test and change due to complex conditional logic  
+ 
+## State machine method - separation in small testable pieces   
+
+[State machine Code](./src/main/java/ro/alexil/tennis/TennisGame.java)
+
+Pro: 
+ - maintainability and testability 
+ - separation of concerns 
+ - avoid complex conditional logic 
+ - encapsulation of behaviour
+
+Cons: 
+ - slightly harder to debug for simple issues
+ - instead of a class with few conditions, we have multiple state classes 
+ - increase of the code size for a simple game 
+
 # Prerequisites
 
 * Maven 3.9.9
